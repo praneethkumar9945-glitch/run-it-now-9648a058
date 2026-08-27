@@ -210,15 +210,17 @@ export function About() {
       <SectionTitle light="About" bold="Me" />
       <div className="grid gap-10 md:grid-cols-2">
         <p className="text-lg leading-relaxed text-muted-foreground">
-          I am a full-stack engineer and creative developer with 7+ years of experience building
-          scalable, high-performance applications for enterprise and consumer use cases. I live in
-          the gap between aesthetic design and robust engineering.
+          I have been working on building businesses and initiatives focused on skill development,
+          technology, entrepreneurship, and creating opportunities for young people. I strongly
+          believe that India’s greatest strength is its young population, and I want to contribute
+          by helping young people develop practical skills, become employable, and pursue
+          entrepreneurship.
+
+          As a strategic-minded entrepreneur, my goal is to build organizations that create
+          employment, encourage innovation, and contribute meaningfully to India’s economic and
+          social development.
         </p>
-        <p className="text-lg leading-relaxed text-muted-foreground">
-          Strong expertise in React, Angular, TypeScript and Node, with hands-on experience
-          designing REST APIs, integrating backend services, and improving application reliability
-          across cross-functional, multi-disciplinary teams in India and the UAE.
-        </p>
+        <p className="text-lg leading-relaxed text-muted-foreground"></p>
       </div>
       <div className="mt-16 grid gap-6 sm:grid-cols-3">
         {[
