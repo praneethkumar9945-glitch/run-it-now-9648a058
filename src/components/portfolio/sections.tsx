@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { ArrowUpRight, Award, Mail, Download, Trophy, Star, Quote } from "lucide-react";
+import { ArrowUpRight, Mail, Download, Quote } from "lucide-react";
 
 export function SectionTitle({
   light,
