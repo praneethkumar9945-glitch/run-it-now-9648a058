@@ -1,24 +1,51 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Hero, Marquee, Nav } from "@/components/portfolio/hero";
+import {
+  About,
+  Awards,
+  Contact,
+  Experience,
+  Testimonials,
+  Work,
+} from "@/components/portfolio/sections";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Akshay — Creative Engineer & Full-Stack Developer" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Akshay, a creative engineer building high-performance web products, design systems and motion-led interfaces.",
+      },
+      { property: "og:title", content: "Akshay — Creative Engineer" },
+      {
+        property: "og:description",
+        content:
+          "Selected work, experience and recognition from a full-stack engineer building fast, beautiful web products.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="bg-background">
+      <Nav />
+      <Hero />
+      <Marquee />
+      <Work />
+      <Awards />
+      <About />
+      <Experience />
+      <Testimonials />
+      <Contact />
+      <footer className="border-t border-border px-6 py-8 text-center text-xs text-muted-foreground">
+        © 2026 Akshay Kumar. All rights reserved.
+      </footer>
+    </main>
   );
 }
