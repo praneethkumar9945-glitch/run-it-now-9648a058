@@ -152,12 +152,19 @@ export function Hero() {
 
 
 const marquee = [
-  "Web Design",
-  "Full-Stack",
-  "Motion",
-  "Design Systems",
-  "React",
-  "Performance",
+  "BUSINESS EXPANSION",
+  "STRATEGIC OPERATIONS",
+  "CORPORATE TRAINING",
+  "BRANDING & MARKETING",
+  "REAC\nT",
+  "DIGITAL TRANSFORMATION",
+  "TECHNOLOGY SOLUTIONS\n",
+  "BUSINESS ANALYTICS ",
+  "MOTIO",
+  "INNOVATION & GROWTH STRATEGY",
+  "INVESTMENT STRATEGY",
+  "MARKET & INDUSTRY RESEARCH\n",
+  "GROWTH CAPITAL ADVISORY\n",
 ];
 
 export function Marquee() {
