@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { ArrowUpRight, Award, Mail, Download, Trophy, Star, Quote } from "lucide-react";
+import { ArrowUpRight, Mail, Download, Quote } from "lucide-react";
 
 export function SectionTitle({
   light,
@@ -85,42 +85,49 @@ export function Work() {
   );
 }
 
+import serviceFlash from "@/assets/service-flash.jpg";
+import serviceCommunity from "@/assets/service-community.jpg";
+import serviceSankaracharya from "@/assets/service-sankaracharya.jpg";
+import serviceManager from "@/assets/service-manager.jpg";
+import serviceBdirection from "@/assets/service-bdirection.jpg";
+import serviceWorkspace from "@/assets/service-workspace.jpg";
+
 const awards = [
   {
-    icon: Trophy,
-    title: "Strategic Operations",
-    desc: "End-to-end operational systems that keep teams aligned, processes lean and delivery predictable at scale.",
-    tags: "Systems • Process • Delivery",
+    image: serviceFlash,
+    title: "The Flash.in",
+    desc: "A fast, modern digital platform delivering lightning-quick news, updates and content experiences.",
+    tags: "Web • Content • Speed",
   },
   {
-    icon: Award,
-    title: "Business Expansion",
-    desc: "Market entry, partnerships and growth playbooks built to take a proven business into new regions.",
-    tags: "Growth • Markets • Partnerships",
+    image: serviceCommunity,
+    title: "Sports & Cultural Community",
+    desc: "A vibrant community platform bringing people together through sports events and cultural celebrations.",
+    tags: "Community • Events • Culture",
   },
   {
-    icon: Star,
-    title: "Branding & Marketing",
-    desc: "Brand identity, publicity and performance marketing that generates leads and lasting recall.",
-    tags: "Lead • Branding • Publicity",
+    image: serviceSankaracharya,
+    title: "Sree Sankaracharya",
+    desc: "Digital presence and solutions for the educational institution — campus, courses and community.",
+    tags: "Education • Institution • Web",
   },
   {
-    icon: Trophy,
-    title: "Corporate Training",
-    desc: "Industry-relevant training programs that upskill teams in AI, digital and modern management practice.",
-    tags: "AI • Digital • Management",
+    image: serviceManager,
+    title: "The Manager",
+    desc: "A smart management dashboard for analytics, team coordination and data-driven decisions.",
+    tags: "Dashboard • Analytics • SaaS",
   },
   {
-    icon: Award,
-    title: "AI Solutions",
-    desc: "Advanced AI-powered platforms to automate operations and unlock data-driven decisions.",
-    tags: "ERP • CRM • Automation",
+    image: serviceBdirection,
+    title: "B-Direction",
+    desc: "Creative direction and production branding — cinematic storytelling for films and media.",
+    tags: "Creative • Film • Branding",
   },
   {
-    icon: Star,
-    title: "Investment Advisory",
-    desc: "Diversified investment strategy focused on real assets and long-term financial growth.",
-    tags: "Investment • Assets • Markets",
+    image: serviceWorkspace,
+    title: "Workspace",
+    desc: "A modern coworking space solution — booking, community and productivity under one roof.",
+    tags: "Coworking • Booking • Space",
   },
 ];
 
@@ -174,12 +181,13 @@ export function Awards() {
                   key={a.title}
                   className="group w-[78vw] shrink-0 overflow-hidden rounded-3xl border border-border bg-card transition-all duration-500 hover:-translate-y-1 hover:border-accent/60 sm:w-[52vw] md:w-[22rem]"
                 >
-                  <div
-                    className="relative flex h-44 items-end overflow-hidden p-6"
-                    style={{ background: "var(--gradient-cool)" }}
-                  >
-                    <div className="absolute inset-0 bg-background/40" />
-                    <a.icon className="relative size-10 text-foreground/90 transition-transform duration-500 group-hover:scale-110" />
+                  <div className="relative h-44 overflow-hidden">
+                    <img
+                      src={a.image}
+                      alt={a.title}
+                      loading="lazy"
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-semibold leading-snug">{a.title}</h3>
