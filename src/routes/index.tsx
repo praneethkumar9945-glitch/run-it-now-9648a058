@@ -5,7 +5,6 @@ import {
   Awards,
   Contact,
   Experience,
-  Testimonials,
   Work,
 } from "@/components/portfolio/sections";
 
@@ -41,7 +40,6 @@ function Index() {
       <Awards />
       <About />
       <Experience />
-      <Testimonials />
       <Contact />
       <footer className="border-t border-border px-6 py-8 text-center text-xs text-muted-foreground">
         © 2026 Akshay Kumar. All rights reserved.
