@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { ArrowUpRight, Mail, Download, Quote } from "lucide-react";
+import { ArrowUpRight, Mail, Quote } from "lucide-react";
 
 export function SectionTitle({
   light,
@@ -415,12 +415,6 @@ export function Contact() {
             className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-xs font-semibold tracking-[0.2em] uppercase text-primary-foreground transition-transform hover:scale-[1.03]"
           >
             <Mail className="size-4" /> Send a message
-          </a>
-          <a
-            href="#"
-            className="inline-flex items-center gap-2 rounded-full border border-border px-7 py-3 text-xs font-semibold tracking-[0.2em] uppercase transition-colors hover:border-accent hover:text-accent"
-          >
-            <Download className="size-4" /> Download CV
           </a>
         </div>
       </div>
