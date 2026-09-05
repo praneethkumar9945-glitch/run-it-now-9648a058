@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { ArrowUpRight, Mail, Quote } from "lucide-react";
+import { ArrowUpRight, Mail } from "lucide-react";
 
 export function SectionTitle({
   light,
@@ -353,45 +353,6 @@ export function Experience() {
   );
 }
 
-const quotes = [
-  {
-    text: "I had the opportunity to work alongside him on a demanding platform rebuild. He owns problems end to end and the quality never slips.",
-    name: "Priya Nair",
-    role: "Product Lead, Innovations",
-  },
-  {
-    text: "Rare combination of taste and engineering rigour. Our conversion rate moved 30% after the redesign he shipped.",
-    name: "Omar Haddad",
-    role: "Founder, Northwind",
-  },
-  {
-    text: "He turned a vague brief into a design system the whole team now builds on. Fast, clear, unusually thoughtful.",
-    name: "Sara Menon",
-    role: "Head of Design, Atlas",
-  },
-];
-
-export function Testimonials() {
-  return (
-    <section id="testimonials" className="mx-auto max-w-6xl px-6 py-28">
-      <SectionTitle light="Client" bold="Recommendations" eyebrow="What people say about me" />
-      <div className="grid gap-6 md:grid-cols-3">
-        {quotes.map((q) => (
-          <figure key={q.name} className="rounded-2xl border border-border bg-card p-7">
-            <Quote className="size-5 text-accent" />
-            <blockquote className="mt-5 text-sm leading-relaxed text-muted-foreground">
-              {q.text}
-            </blockquote>
-            <figcaption className="mt-7 border-t border-border pt-5">
-              <p className="text-sm font-semibold">{q.name}</p>
-              <p className="text-xs text-muted-foreground">{q.role}</p>
-            </figcaption>
-          </figure>
-        ))}
-      </div>
-    </section>
-  );
-}
 
 export function Contact() {
   return (
