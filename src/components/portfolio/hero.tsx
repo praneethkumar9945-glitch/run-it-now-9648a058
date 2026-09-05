@@ -139,7 +139,7 @@ export function Hero() {
             BAVESH<span className="text-accent">.</span>
           </h1>
           <p className="mt-4 text-[10px] tracking-[0.6em] uppercase text-muted-foreground md:text-xs">
-            Creative Engineer
+            CEO & MANAGING DIRECTOR
           </p>
         </div>
         <div className="absolute bottom-6 left-1/2 z-10 -translate-x-1/2 text-[10px] tracking-[0.4em] uppercase text-muted-foreground">
