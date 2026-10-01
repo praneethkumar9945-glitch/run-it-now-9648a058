@@ -119,7 +119,7 @@ const awards = [
   },
   {
     image: serviceBdirection,
-    title: "B-Direction",
+    title: "B-Direction group of company",
     desc: "Creative direction and production branding — cinematic storytelling for films and media.",
     tags: "Creative • Film • Branding",
   },
