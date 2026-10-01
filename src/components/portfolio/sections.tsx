@@ -107,13 +107,13 @@ const awards = [
   },
   {
     image: serviceSankaracharya,
-    title: "Sree Sankaracharya",
+    title: "Sree Sankaracharya Institute of Advanced Skills",
     desc: "Digital presence and solutions for the educational institution — campus, courses and community.",
     tags: "Education • Institution • Web",
   },
   {
     image: serviceManager,
-    title: "The Manager",
+    title: "The Manager LLP",
     desc: "A smart management dashboard for analytics, team coordination and data-driven decisions.",
     tags: "Dashboard • Analytics • SaaS",
   },
