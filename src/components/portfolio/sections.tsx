@@ -239,62 +239,18 @@ export function About() {
 }
 
 const roles = [
-  {
-    role: "Managing Partner",
-    company: "Workspace",
+{
+    role: "Founder & Chairman",
+    company: "Sports & Cultural Organization",
     place: "",
-    date: "2020 – Present",
+    date: "2026 – Present",
     points: [
-      "Led business consulting and growth initiatives across marketing, sales, financial management, accounting, and auditing.",
-      "Worked directly with businesses to identify growth opportunities and improve financial and commercial performance.",
-      "Managed a team delivering integrated marketing, sales, and business-growth solutions to client organizations.",
+      "Founded and lead a pan-India sports and cultural organization focused on youth development and participation.",
+      "Oversee the planning and execution of sports, cultural activities, competitions, and youth-focused events.",
+      "Work toward creating opportunities for young people through sports, culture, community engagement, and nationwide programs.",
     ],
   },
-  {
-    role: "CEO & Managing Director",
-    company: "B Direction",
-    place: "",
-    date: "October 2022 – Present",
-    points: [
-      "Led the overall management and strategic direction of an asset management and investment holding company, with a focus on investment performance and returns.",
-      "Directed business strategy, investment-related operations, organizational development, and management activities.",
-      "Oversaw growth initiatives focused on asset management, investment opportunities, and return on investment.",
-    ],
-  },
-  {
-    role: "Director",
-    company: "Sree Sankaracharya Institute of Advanced Skills",
-    place: "",
-    date: "2023 – Present",
-    points: [
-      "Led institutional expansion and franchise development initiatives, including plans for expanding the institution across India.",
-      "Worked on modernizing administration, institutional systems, and operational processes.",
-      "Contributed to strategic institutional development with a focus on modern education and scalable operations.",
-    ],
-  },
-  {
-    role: "CEO & Director",
-    company: "NextGen Innovators",
-    place: "",
-    date: "2023 – Present",
-    points: [
-      "Led a group focused on investing in and developing educational institutions to provide modern, industry-oriented education.",
-      "Directed strategic planning, institutional development, business operations, and organizational expansion.",
-      "Focused on creating modern education opportunities for youth and developing scalable education ventures.",
-    ],
-  },
-  {
-    role: "Chairman",
-    company: "The Flash Marketing",
-    place: "",
-    date: "2025 – Present",
-    points: [
-      "Provided strategic leadership and direction for marketing and business-development activities.",
-      "Oversaw organizational growth, strategic decision-making, and development of marketing-focused business initiatives.",
-      "Guided the team in building and expanding marketing, sales, branding, and client-growth opportunities.",
-    ],
-  },
-  {
+{
     role: "Founder & CEO",
     company: "Manager",
     place: "",
@@ -305,15 +261,59 @@ const roles = [
       "Focus on helping businesses automate operations, improve efficiency, reduce operational costs, and manage business processes through technology.",
     ],
   },
-  {
-    role: "Founder & Chairman",
-    company: "Sports & Cultural Organization",
+{
+    role: "Chairman",
+    company: "The Flash Marketing",
     place: "",
-    date: "2026 – Present",
+    date: "2025 – Present",
     points: [
-      "Founded and lead a pan-India sports and cultural organization focused on youth development and participation.",
-      "Oversee the planning and execution of sports, cultural activities, competitions, and youth-focused events.",
-      "Work toward creating opportunities for young people through sports, culture, community engagement, and nationwide programs.",
+      "Provided strategic leadership and direction for marketing and business-development activities.",
+      "Oversaw organizational growth, strategic decision-making, and development of marketing-focused business initiatives.",
+      "Guided the team in building and expanding marketing, sales, branding, and client-growth opportunities.",
+    ],
+  },
+{
+    role: "CEO & Director",
+    company: "NextGen Innovators",
+    place: "",
+    date: "2023 – Present",
+    points: [
+      "Led a group focused on investing in and developing educational institutions to provide modern, industry-oriented education.",
+      "Directed strategic planning, institutional development, business operations, and organizational expansion.",
+      "Focused on creating modern education opportunities for youth and developing scalable education ventures.",
+    ],
+  },
+{
+    role: "Director",
+    company: "Sree Sankaracharya Institute of Advanced Skills",
+    place: "",
+    date: "2023 – Present",
+    points: [
+      "Led institutional expansion and franchise development initiatives, including plans for expanding the institution across India.",
+      "Worked on modernizing administration, institutional systems, and operational processes.",
+      "Contributed to strategic institutional development with a focus on modern education and scalable operations.",
+    ],
+  },
+{
+    role: "CEO & Managing Director",
+    company: "B Direction",
+    place: "",
+    date: "October 2022 – Present",
+    points: [
+      "Led the overall management and strategic direction of an asset management and investment holding company, with a focus on investment performance and returns.",
+      "Directed business strategy, investment-related operations, organizational development, and management activities.",
+      "Oversaw growth initiatives focused on asset management, investment opportunities, and return on investment.",
+    ],
+  },
+{
+    role: "Managing Partner",
+    company: "Workspace",
+    place: "",
+    date: "2020 – Present",
+    points: [
+      "Led business consulting and growth initiatives across marketing, sales, financial management, accounting, and auditing.",
+      "Worked directly with businesses to identify growth opportunities and improve financial and commercial performance.",
+      "Managed a team delivering integrated marketing, sales, and business-growth solutions to client organizations.",
     ],
   },
 ];
