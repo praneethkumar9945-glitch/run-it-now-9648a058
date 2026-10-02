@@ -120,8 +120,8 @@ const awards = [
   {
     image: serviceBdirection,
     title: "B-Direction group of company",
-    desc: "Creative direction and production branding — cinematic storytelling for films and media.",
-    tags: "Creative • Film • Branding",
+    desc: "Asset management and investment holding company — leading business strategy, investment operations and growth initiatives focused on performance and returns.",
+    tags: "Investment • Asset Management • Growth",
   },
   {
     image: serviceWorkspace,
