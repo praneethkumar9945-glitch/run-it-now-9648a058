@@ -251,17 +251,6 @@ const roles = [
     ],
   },
 {
-    role: "Founder & CEO",
-    company: "Manager",
-    place: "",
-    date: "2024 – Present",
-    points: [
-      "Founded and lead an AI-powered technology and automation company focused on modern business solutions.",
-      "Oversee product strategy, business development, organizational growth, and development of AI-based automation solutions.",
-      "Focus on helping businesses automate operations, improve efficiency, reduce operational costs, and manage business processes through technology.",
-    ],
-  },
-{
     role: "Chairman",
     company: "The Flash Marketing",
     place: "",
@@ -270,6 +259,17 @@ const roles = [
       "Provided strategic leadership and direction for marketing and business-development activities.",
       "Oversaw organizational growth, strategic decision-making, and development of marketing-focused business initiatives.",
       "Guided the team in building and expanding marketing, sales, branding, and client-growth opportunities.",
+    ],
+  },
+{
+    role: "Founder & CEO",
+    company: "Manager",
+    place: "",
+    date: "2024 – Present",
+    points: [
+      "Founded and lead an AI-powered technology and automation company focused on modern business solutions.",
+      "Oversee product strategy, business development, organizational growth, and development of AI-based automation solutions.",
+      "Focus on helping businesses automate operations, improve efficiency, reduce operational costs, and manage business processes through technology.",
     ],
   },
 {
