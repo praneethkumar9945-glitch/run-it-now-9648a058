@@ -7,7 +7,6 @@ const nav = [
   ["Work", "#work"],
   ["About", "#about"],
   ["Experience", "#experience"],
-  ["Testimonials", "#testimonials"],
   ["Contact", "#contact"],
 ];
 
