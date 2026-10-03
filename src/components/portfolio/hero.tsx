@@ -30,7 +30,7 @@ export function Nav() {
           href="#contact"
           className="rounded-full bg-accent px-4 py-1.5 text-[11px] font-semibold tracking-[0.2em] uppercase text-accent-foreground"
         >
-          Resume
+          CONNECT
         </a>
       </nav>
     </header>
