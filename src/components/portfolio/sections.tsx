@@ -374,7 +374,7 @@ export function Contact() {
             href="mailto:hello@akshay.dev"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-xs font-semibold tracking-[0.2em] uppercase text-primary-foreground transition-transform hover:scale-[1.03]"
           >
-            <Mail className="size-4" />C
+            <Mail className="size-4" />CONNECT WITH ME
           </a>
         </div>
       </div>
