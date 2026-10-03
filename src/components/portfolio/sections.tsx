@@ -367,15 +367,14 @@ export function Contact() {
           <span>Together</span>
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-sm leading-relaxed text-muted-foreground">
-          Currently open to senior/lead full-stack roles in the UAE or India. Whether you have an
-          enterprise project or a creative vision to bring to life, I&apos;d love to hear from you.
+          {"\n"}
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <a
             href="mailto:hello@akshay.dev"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-xs font-semibold tracking-[0.2em] uppercase text-primary-foreground transition-transform hover:scale-[1.03]"
           >
-            <Mail className="size-4" /> Send a message
+            <Mail className="size-4" />C
           </a>
         </div>
       </div>
